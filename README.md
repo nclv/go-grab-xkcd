@@ -1,12 +1,12 @@
 # go-grab-xkcd
 
-From https://eryb.space/2020/05/27/diving-into-go-by-building-a-cli-application.html
+From [Building a CLI application in Go](https://eryb.space/2020/05/27/diving-into-go-by-building-a-cli-application.html)
 
 
-* go.mod - Go Modules file used in Go for package management
-* main.go - Main entrypoint of the application
-* comic.go - Go representation of the data as a struct and operations on it
-* xkcd.go - xkcd client for making HTTP calls to the API, parsing response and saving to disk
+* `go.mod` - Go Modules file used in Go for package management
+* `main.go` - Main entrypoint of the application
+* `comic.go` - Go representation of the data as a struct and operations on it
+* `xkcd.go` - xkcd client for making HTTP calls to the API, parsing response and saving to disk
 
 Run the program as follows-
 
